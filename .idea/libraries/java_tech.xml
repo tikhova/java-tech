@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="java-tech">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/production/java-tech/info.kgeorgiy.java.advanced.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/java-tech/info.kgeorgiy.java.advanced.student.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/java-tech/jsoup-1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/java-tech/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/java-tech/info.kgeorgiy.java.advanced.walk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/java-tech/junit-4.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
