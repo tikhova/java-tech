@@ -30,10 +30,8 @@ public class RecursiveWalk {
             }
         } catch (FileNotFoundException err) {
             System.out.println("Error: " + sourceName + " not found");
-            return;
         } catch (IOException err) {
             System.out.println(err.getMessage());
-            return;
         }
     }
 
@@ -56,7 +54,8 @@ public class RecursiveWalk {
 
     public static void printResult(String path, BufferedWriter out, int value) {
         try {
-            out.write(String.format("%08x", value) + " " + path + "\n");
+            out.write(String.format("%08x", value) + " " + path);
+            out.newLine();
         } catch (IOException err) {
             System.out.println(err.getMessage());
         }
@@ -76,7 +75,6 @@ public class RecursiveWalk {
             }
         } catch (NullPointerException err) {
             printResult(path, out, 0);
-            return;
         } catch (IOException err) {
             System.out.println(err.getMessage());
         }
